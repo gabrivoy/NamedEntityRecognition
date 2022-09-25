@@ -12,7 +12,7 @@ text on the application to the NER's labels. Also, the application uses Flask as
 an endpoint to receive the text, and call the spaCy model. The application was developed using TDD 
 concepts, with the tests being written before the code, using the red-green-refactor approach.
 
-## How to run
+## How to run the application
 
 To run, just create a virtual environment and install the `requirements.txt` file. This can be done
 either via `conda envs` or `virtualenv` commands. After creating the environment, go to the folder where
@@ -43,4 +43,4 @@ using Visual Studio Code, you can access the tests menu on the left, on the symb
 python -m pytests
 ```
 
-To execute all of them. From there, you can just watch tem execute and (hopefully) pass!
+This snippet of code will execute all of them. From there, you can just watch them execute and (hopefully) pass!
