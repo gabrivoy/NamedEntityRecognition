@@ -20,8 +20,16 @@ you've cloned the project and install the requirements with the `pip install -r 
 (if you've created a `conda env`, there's a chance will need to install `pip`, you can do it with 
 the `conda install pip` command).
 
-From there, you need to install the app as a package on the editable mode. 
-On the folder, just execute `pip install -e .` to install the app.
+With the environment created and the base requirements installed, we need to download our spaCy model. To do
+that, we execute:
+
+```
+python -m spacy download en_core_web_sm
+```
+
+From there, you need to install the app as a package on the editable mode. On the project folder, 
+just execute `pip install -e .` to install the app. It will use the `setup.py` file and automatically find all
+included packages.
 
 After that, you can execute the command `python app.py` to expose a port on `http://127.0.0.1/5000` and access 
 the project on the browser.
@@ -35,4 +43,4 @@ using Visual Studio Code, you can access the tests menu on the left, on the symb
 python -m pytests
 ```
 
-To execute all of them.
+To execute all of them. From there, you can just watch tem execute and (hopefully) pass!
