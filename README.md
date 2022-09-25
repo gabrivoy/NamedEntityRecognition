@@ -16,7 +16,12 @@ concepts, with the tests being written before the code, using the red-green-refa
 
 To run, just create a virtual environment and install the `requirements.txt` file. This can be done
 either via `conda envs` or `virtualenv` commands. After creating the environment, go to the folder where
-you've cloned the project and install the requirements with the `pip install -r requirements.txt` command.
+you've cloned the project and install the requirements with the `pip install -r requirements.txt` command
+(if you've created a `conda env`, there's a chance will need to install `pip`, you can do it with 
+the `conda install pip` command).
+
+From there, you need to install the app as a package on the editable mode. 
+On the folder, just execute `pip install -e .` to install the app.
 
 After that, you can execute the command `python app.py` to expose a port on `http://127.0.0.1/5000` and access 
 the project on the browser.
