@@ -1,6 +1,6 @@
 # Named Entity Recognition App | Test-Driven Development Studies
 
-This repository contains a simple application using the Named Entity Recognition NER concept 
+This repository contains a simple application using the Named Entity Recognition concept 
 (you can read more about on the [wiki:NER](https://en.wikipedia.org/wiki/Named-entity_recognition))
 to study and apply both tests and test-driven development 
 (TDD, [wiki:TDD](https://pt.wikipedia.org/wiki/Test-driven_development)) in Python.
