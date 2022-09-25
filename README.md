@@ -34,6 +34,8 @@ included packages.
 After that, you can execute the command `python app.py` to expose a port on `http://127.0.0.1/5000` and access 
 the project on the browser.
 
+![Index page for the application](/static/example_image.png "App's index page")
+
 ## How to execute the tests
 
 The tests are on the `/test/` subfolder, where you can navigate to and run the command below. If you're
